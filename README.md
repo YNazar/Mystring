@@ -1,4 +1,0 @@
-Mystring
-========
-
-C++ Project
