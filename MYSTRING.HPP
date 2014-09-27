@@ -23,11 +23,10 @@ public:
     void operator+=(const Mystring&rhs);
     void  deletchr( char a);
     size_t  findchr(const char *str, char a);
-    void resiz(size_t newsiz);
 private:
     char *str;
     size_t siz;
-
+    void resiz(size_t newsiz);
 
 };
 Mystring operator+( const Mystring& a,const Mystring &b);
