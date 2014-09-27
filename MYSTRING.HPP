@@ -7,8 +7,12 @@ public:
     Mystring();
     explicit Mystring(size_t ins);
     explicit Mystring ( const char *str1);
-    ~Mystring() {delete [] str;}
-    Mystring(const Mystring &rhs);
+    ~Mystring()
+    {
+        delete [] str;
+
+    }
+    Mystring(Mystring &rhs);
     Mystring operator=(const Mystring& rhs);
     void printstr();
     void scanstr();
