@@ -133,6 +133,7 @@ void Mystring:: deletchr( char a)
         }
     }
     str=tmp;
+    
 }
 size_t  Mystring::findchr(const char *str, char a)
 {
